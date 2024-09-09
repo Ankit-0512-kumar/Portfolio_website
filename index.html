@@ -48,6 +48,12 @@
             color: rgb(154, 154, 236);
             font-size: 1.05rem;
         }
+        main hr{
+            border: 0;
+            height: 1.2px;
+            margin: 1.01rem;
+            background: #9c97f1;
+        }
 
         .left {
             font-size: 1.5rem;
@@ -57,7 +63,7 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            margin: 80px 0;
+            margin: 110px 0;
         }
 
         .firstSection>div {
@@ -65,7 +71,7 @@
         }
 
         .leftSection {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             margin: 30px 0;
         }
 
@@ -76,13 +82,28 @@
         .purple {
             color: rgb(177, 136, 216);
         }
+        .text-gray{
+            color: gray;
+        }
 
         #element {
             color: rgb(177, 136, 216);
         }
-        .secondSection{
+
+        .secondSection {
             max-width: 80vw;
             margin: auto;
+            height: 80vh;
+        }
+        .secondSection h1{
+            font-size: 1.5rem;
+
+        }
+        .secondSection box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
         }
     </style>
 </head>
@@ -116,8 +137,10 @@
         </section>
         <hr>
         <section class="secondSection">
-            <h1>Past Experience</h1>
-             
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box"></div>
+
         </section>
     </main>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
