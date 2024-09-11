@@ -99,11 +99,45 @@
             font-size: 1.5rem;
 
         }
-        .secondSection box{
+       
+        .secondSection .box{
             background: white;
-            width: 80vw;
+            width: 100%;
             height: 2px;
             margin: 56px 0;
+            display: flex;
+        }
+        .secondSection .vertical1{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 30px;
+            justify-content: center;
+        }
+        .secondSection .vertical2{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 330px;
+            justify-content: center;
+        }
+        .image-top{
+            width: 30px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 250px;
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
         }
     </style>
 </head>
@@ -139,7 +173,31 @@
         <section class="secondSection">
             <span class="text-gray">What I have done so far</span>
             <h1>Work Experience</h1>
-            <div class="box"></div>
+            <div class="box">
+                <div class="vertical1">
+                    <img src="Developer.png" alt="" class="image-top">
+                        <div class="vertical-title">
+                            Python Developer & ML Eng.
+                        </div>
+                        <div class="vertical-desc">
+                            <ul style="list-style-type: circle;">
+                                <li>PT Communication System Pvt. Ltd.</li>
+                                <li>parafffgram</li>
+                            </ul>
+                            
+                        </div>
+                    
+                </div>
+                <div class="vertical2">
+                    <img src="Developer.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Machine learning eng (2023-2024)
+
+                    </div>
+                    
+                </div>
+                
+            </div>
 
         </section>
     </main>
